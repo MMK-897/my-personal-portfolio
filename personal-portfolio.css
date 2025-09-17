@@ -278,7 +278,7 @@ a.contact-link {
   height: 40px;
   border-radius: 4px;
   text-align: center;
-  width: 550px;
+  width: 600px;
   border: 1px solid #dddddd44;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -288,11 +288,25 @@ a.contact-link {
 }
 .email{
   color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
 a.email{
   text-decoration: none;
 }
+
+.linkedin{
+  color: black;
+  font-size: 20px;
+}
+.copy-right-section{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+  
+
+}
+
 @media (max-width: 768px) {
   .name {
     font-size: 20px;
@@ -301,9 +315,7 @@ a.email{
     font-size: 16px;
     gap: 15px;
   }
-.linkedin{
-  color: black;
-}
+
   .main-container {
     flex-direction: column;
     gap: 10px;
