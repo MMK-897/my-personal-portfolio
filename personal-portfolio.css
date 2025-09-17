@@ -362,6 +362,24 @@ a.email{
   .down-section {
     margin-top: 70px;
   }
+  .projects-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-details{
+    width: 350px;
+    ;
+  }
+  .email{
+    font-size: 15px;
+  }
+  .linkedin{
+    font-size: 17px;
+  }
+  .copy-right-section{
+    font-size: 10px;
+  }
 }
 html {
   scroll-behavior: smooth;
